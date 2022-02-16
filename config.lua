@@ -1298,4 +1298,28 @@ QB.Doors = {
 		distance = 15.0,
 		size = 2
 	},
+
+	-- LSC - middle of Los Santos
+	{
+		objName = 'prop_com_ls_door_01',
+		objCoords  = vector3(-349.4, -117.42, 39.01),			
+		textCoords = vector3(-349.4, -117.42, 39.01),
+		authorizedJobs = { 'mechanic' },
+		locking = true,
+		locked = true,
+		pickable = false,
+		distance = 15.0,
+		size = 2
+	},
+	{
+		objName = 'prop_com_ls_door_01',
+		objCoords = vector3(-355.91, -134.78, 39.01),
+		textCoords = vector3(-355.91, -134.78, 39.01),
+		authorizedJobs = { 'mechanic' },
+		locking = true,
+		locked = true,
+		pickable = false,
+		distance = 15.0,
+		size = 2
+	}
 }
